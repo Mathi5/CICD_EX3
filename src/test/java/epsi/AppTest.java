@@ -18,4 +18,13 @@ public class AppTest
     {
         assertEquals("2 + 3 should be 5", 5, App.compute(new String[]{"2", "3"}));
     }
+
+    /**
+    * Test multiplying two numbers
+    */
+    @Test
+    public void shouldMultiplyTwoNumbers()
+    {
+        assertEquals("2 * 3 should be 6", 6, App.computeMultiply(new String[]{"2", "3"}));
+    }
 }
